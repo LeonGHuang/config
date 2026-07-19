@@ -1,0 +1,54 @@
+{
+        // vim
+        "vim.foldfix": true,
+        "editor.lineNumbers": "relative",
+        "vim.useSystemClipboard": true,
+
+        // vim keybinds
+        "vim.insertModeKeyBindings": [
+                {
+                "before":["j", "k"],
+                "after": ["<Esc>"]
+                }
+        ],
+
+
+        // vscode
+        "editor.autoIndentOnPaste": true,
+        "jupyter.interactiveWindow.textEditor.executeSelection": true,
+        "task.allowAutomaticTasks": "on",
+        "files.autoSave": "afterDelay",
+
+        // good coding practises
+        "editor.tabSize": 8,
+        "editor.autoIndent": "full",
+        "editor.inlineSuggest.enabled": false,
+        "editor.autoClosingBrackets": "never",
+        "editor.autoClosingOvertype": "never",
+        "editor.autoClosingQuotes": "never",
+
+        // workspace debloat
+        "breadcrumbs.enabled": false,
+        "chat.titleBar.openInAgentsWindow.enabled": false,
+        "editor.minimap.enabled": false,
+        "window.commandCenter": false,
+        "workbench.browser.showInTitleBar": true,
+        "chat.viewSessions.orientation": "stacked",
+        "workbench.sideBar.location": "right",
+        "workbench.activityBar.location": "top", 
+        "terminal.integrated.tabs.location": "left",
+        "window.menuBarVisibility": "toggle",
+
+        // theme
+        "workbench.colorTheme": "Catppuccin Mocha",
+        "workbench.iconTheme": "vs-nomo-dark",
+        "editor.foldingHighlight":false,
+        "editor.tokenColorCustomizations": {
+                "textMateRules": [
+                {
+                "scope": "storage.type.string.python",
+                "settings": { "foreground": "#E06C75" }
+                }
+                ]
+        }
+}
