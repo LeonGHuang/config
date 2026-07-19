@@ -1,0 +1,17 @@
+# alacritty.toml
+
+[window]
+dimensions = {columns = 105, lines = 30}
+startup_mode = "Fullscreen"
+opacity = 0.75
+padding = {x = 10, y = 0}
+decorations = "None"
+
+[font]
+size = 13
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = {shape = "Block", blinking = "Off"}
