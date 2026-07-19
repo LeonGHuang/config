@@ -8,7 +8,7 @@ padding = {x = 10, y = 0}
 decorations = "None"
 
 [font]
-size = 13
+size = 11
 
 [selection]
 save_to_clipboard = true
