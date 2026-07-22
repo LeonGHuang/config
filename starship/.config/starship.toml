@@ -1,0 +1,20 @@
+add_newline = false
+format = "$username$hostname$directory$character"
+
+[username]
+style_user = "yellow"
+show_always = true
+format = "[$user]($style)"
+
+[hostname]
+style = "yellow"
+ssh_only = false
+format = "[@$hostname:]($style)"
+
+[directory]
+style = "yellow"
+
+[character]
+success_symbol = "[>](yellow)"
+error_symbol = "[>](red)"
+
