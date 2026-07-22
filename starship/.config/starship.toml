@@ -3,6 +3,7 @@ format = "$username$hostname$directory$character"
 
 [username]
 style_user = "yellow"
+style_root = "red"
 show_always = true
 format = "[$user]($style)"
 
@@ -13,6 +14,7 @@ format = "[@$hostname:]($style)"
 
 [directory]
 style = "yellow"
+format = "[$path]($style)"
 
 [character]
 success_symbol = "[>](yellow)"
