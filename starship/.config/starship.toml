@@ -1,5 +1,5 @@
 add_newline = false
-format = "$username$hostname$directory$character"
+format = '''[\[$username$hostname $directory\] ](yellow)'''
 
 [username]
 style_user = "yellow"
@@ -10,13 +10,13 @@ format = "[$user]($style)"
 [hostname]
 style = "yellow"
 ssh_only = false
-format = "[@$hostname:]($style)"
+format = "[@$hostname]($style)"
 
 [directory]
 style = "yellow"
 format = "[$path]($style)"
 
 [character]
-success_symbol = "[>](yellow)"
-error_symbol = "[>](red)"
+success_symbol = "[\\$](yellow)"
+error_symbol = "[\\$](red)"
 
